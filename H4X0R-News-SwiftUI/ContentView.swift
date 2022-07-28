@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        //TODO: - NavigationView is deprecated in iOS 16. Use NavigationStack.
+        NavigationView {
+            
+            Text("Hello, world!")
+            
+            .navigationTitle("H4X0R NEWS")
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
