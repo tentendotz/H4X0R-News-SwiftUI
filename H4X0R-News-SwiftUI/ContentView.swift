@@ -12,9 +12,9 @@ struct ContentView: View {
         
         //TODO: - NavigationView is deprecated in iOS 16. Use NavigationStack.
         NavigationView {
-            
-            Text("Hello, world!")
-            
+            List(items) { item in
+                Text(item.title)
+            }
             .navigationTitle("H4X0R NEWS")
         }
         .navigationViewStyle(.stack)
@@ -26,3 +26,16 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+// Sample Items
+struct Sample: Identifiable {
+    let id: String
+    let title: String
+}
+
+let items = [
+    Sample(id: "1", title: "Hello"),
+    Sample(id: "2", title: "Bonjour"),
+    Sample(id: "3", title: "Hola")
+]
