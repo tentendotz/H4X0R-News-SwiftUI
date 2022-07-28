@@ -12,6 +12,7 @@
 		06C3F3F22891363C00B7A9DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C3F3F12891363C00B7A9DC /* Assets.xcassets */; };
 		06C3F3F52891363C00B7A9DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C3F3F42891363C00B7A9DC /* Preview Assets.xcassets */; };
 		06C8698F2892D111007C3917 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8698E2892D111007C3917 /* PostData.swift */; };
+		06C869912892D148007C3917 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C869902892D148007C3917 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		06C3F3F12891363C00B7A9DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06C3F3F42891363C00B7A9DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06C8698E2892D111007C3917 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		06C869902892D148007C3917 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				06C8698E2892D111007C3917 /* PostData.swift */,
+				06C869902892D148007C3917 /* NetworkManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C869912892D148007C3917 /* NetworkManager.swift in Sources */,
 				06C3F3F02891363700B7A9DC /* ContentView.swift in Sources */,
 				06C8698F2892D111007C3917 /* PostData.swift in Sources */,
 				06C3F3EE2891363700B7A9DC /* H4X0R_News_SwiftUIApp.swift in Sources */,

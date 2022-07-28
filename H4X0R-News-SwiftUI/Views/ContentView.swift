@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var networkManager = NetworkManager()
+    
     var body: some View {
         
         //TODO: - NavigationView is deprecated in iOS 16. Use NavigationStack.
@@ -18,6 +21,10 @@ struct ContentView: View {
             .navigationTitle("H4X0R NEWS")
         }
         .navigationViewStyle(.stack)
+        
+        .onAppear {
+            networkManager.fetchData()
+        }
     }
 }
 
