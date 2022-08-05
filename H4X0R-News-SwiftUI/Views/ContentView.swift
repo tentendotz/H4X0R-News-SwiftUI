@@ -15,8 +15,8 @@ struct ContentView: View {
         
         //TODO: - NavigationView is deprecated in iOS 16. Use NavigationStack.
         NavigationView {
-            List(items) { item in
-                Text(item.title)
+            List(networkManager.posts) { post in
+                Text(post.title)
             }
             .navigationTitle("H4X0R NEWS")
         }
@@ -34,15 +34,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-
-// Sample Items
-struct Sample: Identifiable {
-    let id: String
-    let title: String
-}
-
-let items = [
-    Sample(id: "1", title: "Hello"),
-    Sample(id: "2", title: "Bonjour"),
-    Sample(id: "3", title: "Hola")
-]
