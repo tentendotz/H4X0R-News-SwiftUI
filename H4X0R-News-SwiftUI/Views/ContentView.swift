@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var networkManager = NetworkManager()
+    @ObservedObject var networkManager = NetworkManager()
     
     var body: some View {
         
