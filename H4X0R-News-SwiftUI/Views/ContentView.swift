@@ -24,8 +24,11 @@ struct ContentView: View {
                         Text(post.title)
                     }
                 }
+                .listRowBackground(Color(red: 245/255, green: 245/255, blue: 225/255))
             }
             .navigationTitle("H4X0R NEWS")
+            .listStyle(PlainListStyle())
+            .background(.orange)
         }
         .navigationViewStyle(.stack)
         

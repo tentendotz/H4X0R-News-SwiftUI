@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import WebKit
 
 struct DetailView: View {
     let url: String?
