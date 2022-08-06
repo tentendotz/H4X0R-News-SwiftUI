@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06073871289E9A8C00D364B3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06073870289E9A8C00D364B3 /* DetailView.swift */; };
+		06B18DB1289EFDCA00A535CB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B18DB0289EFDCA00A535CB /* WebView.swift */; };
 		06C3F3EE2891363700B7A9DC /* H4X0R_News_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C3F3ED2891363700B7A9DC /* H4X0R_News_SwiftUIApp.swift */; };
 		06C3F3F02891363700B7A9DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C3F3EF2891363700B7A9DC /* ContentView.swift */; };
 		06C3F3F22891363C00B7A9DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C3F3F12891363C00B7A9DC /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		06073870289E9A8C00D364B3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		06B18DB0289EFDCA00A535CB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		06C3F3EA2891363700B7A9DC /* H4X0R-News-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R-News-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C3F3ED2891363700B7A9DC /* H4X0R_News_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_News_SwiftUIApp.swift; sourceTree = "<group>"; };
 		06C3F3EF2891363700B7A9DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				06C3F3EF2891363700B7A9DC /* ContentView.swift */,
 				06073870289E9A8C00D364B3 /* DetailView.swift */,
+				06B18DB0289EFDCA00A535CB /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				06C869912892D148007C3917 /* NetworkManager.swift in Sources */,
 				06C3F3F02891363700B7A9DC /* ContentView.swift in Sources */,
 				06C8698F2892D111007C3917 /* PostData.swift in Sources */,
+				06B18DB1289EFDCA00A535CB /* WebView.swift in Sources */,
 				06073871289E9A8C00D364B3 /* DetailView.swift in Sources */,
 				06C3F3EE2891363700B7A9DC /* H4X0R_News_SwiftUIApp.swift in Sources */,
 			);
