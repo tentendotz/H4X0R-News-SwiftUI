@@ -16,9 +16,13 @@ struct ContentView: View {
         //TODO: - NavigationView is deprecated in iOS 16. Use NavigationStack.
         NavigationView {
             List(networkManager.posts) { post in
-                HStack {
-                    Text(String(post.points))
-                    Text(post.title)
+                NavigationLink {
+                    DetailView(url: post.url)
+                } label: {
+                    HStack {
+                        Text(String(post.points))
+                        Text(post.title)
+                    }
                 }
             }
             .navigationTitle("H4X0R NEWS")
